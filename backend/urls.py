@@ -21,7 +21,7 @@ from shopping.views import ShoppingItemViewSet
 
 router = routers.DefaultRouter()
 router.register(
-    'shopping-item', ShoppingItemViewSet, base_name='shopping-item'
+    'shopping-item', ShoppingItemViewSet, basename='shopping-item'
 )
 
 urlpatterns = [
